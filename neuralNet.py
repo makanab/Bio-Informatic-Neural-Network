@@ -255,9 +255,9 @@ x_test = np.asarray(x_te_num.tolist())
 
 # Set pretrained weights and biases
 nn = NN()
-nn.W1 = genfromtxt('W1.csv', delimiter=',')
-nn.W2 = genfromtxt('W2.csv', delimiter=',')
-nn.B =  genfromtxt('B.csv',  delimiter=',')
+nn.W1 = genfromtxt('weights1.csv', delimiter=',')
+nn.W2 = genfromtxt('weights2.csv', delimiter=',')
+nn.B =  genfromtxt('bias.csv',  delimiter=',')
 
 
 # Save predictions to prediction.csv
