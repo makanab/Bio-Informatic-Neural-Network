@@ -17,7 +17,7 @@ python3 neuralNet.py
 
 This generates a file[prediction.csv] file that contains the grouped DNA Sequences.
 
-## Librarie Used
+## Libraries used
 
 You need the following Libraries installed to tun the app. Alternatively you can install [Anaconda Python](https://www.anaconda.com/products/individual) which has all the required libraries preinstalled
 
